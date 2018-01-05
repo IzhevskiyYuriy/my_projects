@@ -1,0 +1,124 @@
+.navbar-brand{
+    font-family:Lobster, cursive;
+    Font-size:25px;
+    color: #ce5705!important;
+}
+
+img.img_size{
+    width: 150px;
+    height: 110px;
+
+    border-radius: 8%;
+}
+.table-bordered>tbody>tr>td{
+    vertical-align: inherit;
+    text-align: center;
+}
+
+.table-header {
+    background-color: #e4914cd1;
+}
+
+
+
+.upload_img_wrapper {
+    width: 320px;
+    height: 240px;
+    background-color: #a99ca32b;;
+    border: dashed 1px #ccc;
+}
+.upload_img_wrapper div {
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 100%; width: 100%;
+}
+
+.panel-status{
+    float: right;
+    margin: 0 1.5%;
+    width: 96%;
+}
+
+.mesage_block {
+    background: #dc7e59;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.mesage_block_success {
+    background: #66e4abfa;
+    color: #196108;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.tablesorter {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    box-shadow: 10px 10px 5px #888888;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+
+.tablesorter table{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+
+.tablesorter tr:nth-child(odd){
+
+    background-color:#D9ECFE;
+
+}
+.tablesorter tr:nth-child(even)    { background-color:#ffffff; }
+.tablesorter td{
+    vertical-align:middle;
+    text-align:left;
+    padding:7px;
+    font-size:16px;
+    font-family:arial;
+    font-weight:normal;
+    color:#000000;
+}
+th.header {
+    background-image: url(/../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+ }
+
+thead tr .headerSortDown {
+    background-image: url(/../images/desc.gif);
+}
+thead tr .headerSortUp {
+    background-image: url(/../images/asc.gif);
+}
+
+ul li.admin{
+    color: #9d9d9d;
+}
+
+
+

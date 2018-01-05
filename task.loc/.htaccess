@@ -1,0 +1,9 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+#RewriteRule ^(.*)$ /public/$1
+
+#RewriteRule ^dayside.*$ http://taskizhevskiy.zzz.com.ua/dayside [R=301,L]
+
+RewriteCond %{REQUEST_URI} !dayside
+RewriteRule ^(.*)$ public/$1 [L]
